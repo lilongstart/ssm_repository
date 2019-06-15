@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssm_dao" />
+        <module name="ssm_domain" />
+        <module name="ssm_util" />
         <module name="sssm_service" />
         <module name="sssm_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ssm_dao" target="1.5" />
+      <module name="ssm_domain" target="1.5" />
       <module name="ssm_parent" target="1.5" />
       <module name="ssm_service" target="1.5" />
+      <module name="ssm_util" target="1.5" />
       <module name="ssm_web" target="1.5" />
       <module name="sssm_service" target="1.5" />
       <module name="sssm_web" target="1.5" />
